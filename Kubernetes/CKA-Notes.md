@@ -2,7 +2,7 @@
 title: CKA Notes
 description: 
 published: true
-date: 2022-03-19T19:31:09.127Z
+date: 2022-03-21T20:58:45.028Z
 tags: kubernetes, cka
 editor: markdown
 dateCreated: 2022-03-19T15:43:35.109Z
@@ -15,11 +15,13 @@ This section will contain the bulk of my notes while studying for the CKA exam.
 
 # Pages:
 
-### - [Core-Concepts](/Kubernetes/CKA-Notes/Core-Concepts)
-### - [Scheduling](/Kubernetes/CKA-Notes/Scheduling)
-### - [Application-LifeCycle](/Kubernetes/CKA-Notes/Application-LifeCycle)
-### - [Logging-Monitoring](/Kubernetes/CKA-Notes/Logging-Monitoring)
-### - [Storage](/Kubernetes/CKA-Notes/Storage)
-### - [Security](/Kubernetes/CKA-Notes/Security)
-### - [Network-PreReqs](/Kubernetes/CKA-Notes/Network-PreReqs)
-### - [Networking](/Kubernetes/CKA-Notes/Networking)
+ <font size="5"> 
+ 
+ - [Core-Concepts](/Kubernetes/CKA-Notes/Core-Concepts)
+ - [Scheduling](/Kubernetes/CKA-Notes/Scheduling)
+ - [Application-LifeCycle](/Kubernetes/CKA-Notes/Application-LifeCycle)
+ - [Logging-Monitoring](/Kubernetes/CKA-Notes/Logging-Monitoring)
+ - [Storage](/Kubernetes/CKA-Notes/Storage)
+ - [Security](/Kubernetes/CKA-Notes/Security)
+ - [Network-PreReqs](/Kubernetes/CKA-Notes/Network-PreReqs)
+ - [Networking](/Kubernetes/CKA-Notes/Networking)
