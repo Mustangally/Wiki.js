@@ -2,7 +2,7 @@
 title: Proxmox & Cloud Images
 description: 
 published: true
-date: 2022-03-21T17:32:34.380Z
+date: 2022-03-21T17:39:29.099Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T17:29:54.120Z
@@ -10,13 +10,13 @@ dateCreated: 2022-03-21T17:29:54.120Z
 
 ## What is a Cloud Image?
 
-You might run into these more often in an actual cloud environment like AWS of GCP, as most compute instances used by a hosted provider will utilize a "Cloud Image". So what does that mean? A cloud image is essentially a very lightweight and minimal version of an OS. Take Ubuntu for example. Ubuntu's cloud images are tiny, coming in at only ~500MB. These images also do away with the traditional Ubuntu Server installation GUI, instead allowing you to pass in parameters ahead of time (we'll get there) so that you can skip the installation phase, and go straight to configuration.
+A cloud image is essentially a very lightweight and minimal version of an OS. Take Ubuntu for example. Ubuntu's cloud images are tiny, coming in at only ~500MB. These images also do away with the traditional Ubuntu Server installation GUI, instead allowing you to pass in parameters ahead of time (we'll get there) so that you can skip the installation phase, and go straight to configuration.
 
 Once you have your template in Proxmox, you can simply clone it, define properties, assign an SSH key, and you're off to the races. You can take it a step further and utilize Ansible to further automate the configuration of your server, so that really this whole process becomes 95% automated from inception to operation. This can significantly cut down on the time you spend building servers, and allow you to get back to your testing and deployments.
 
 ## Where do I get Cloud Images?
 
-Luckily Ubuntu makes this super easy. You can simply google "Ubuntu Cloud Images", and you'll find their repository of cloud images. That being said, I'll save you the time: http://cloud-images.ubuntu.com/
+Luckily Ubuntu makes this super easy. You can simply google "Ubuntu Cloud Images", and you'll find their repository of cloud images. http://cloud-images.ubuntu.com/
 
 The cloud image you choose is of course up to you, but I'd recommend sticking to the most up-to-date LTS distribution, which at the time of writing is going to be the "Focal" 20.04 LTS version. ("Jammy" 22.04 LTS is set to release shortly, so I'll probably be testing that soon as well, but the process for this guide shouldn't change.)
 
