@@ -2,7 +2,7 @@
 title: Proxmox & Cloud Images
 description: 
 published: true
-date: 2022-03-21T17:29:54.120Z
+date: 2022-03-21T17:32:22.589Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T17:29:54.120Z
@@ -60,8 +60,10 @@ If you want to expand your hard drive you can on this base image before creating
 
 ## Create Clones!
 
-Now that you've created your template, you can start making clones! Hopefully you found this guide useful, and it saves you time in the future! Look for my upcoming posts regarding Ansible to further automate your server deployments. Ansible will handle everything from where your template and Cloud-Init leave off, allowing you to quickly configure servers to whatever need you might have, whether that be just updating it and prepping it for basic use, installing docker, or joining it to a Kubernetes cluster!
-Troubleshooting
+Now that you've created your template, you can start making clones! Hopefully you found this guide useful, and it saves you time in the future!
+
+
+## Troubleshooting
 
 Incase you accidentally started your VM prior to converting it to a template, you can simply run the following to reset:
 ```bash
