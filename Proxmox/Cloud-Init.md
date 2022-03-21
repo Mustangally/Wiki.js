@@ -2,7 +2,7 @@
 title: Proxmox & Cloud Images
 description: 
 published: true
-date: 2022-03-21T17:39:29.099Z
+date: 2022-03-21T20:53:27.164Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T17:29:54.120Z
@@ -57,11 +57,6 @@ And lastly we're going to add a serial console:
 Now that everything is set up for your template, you can double check your configurations (CPU, RAM, etc.), Configure the Cloud-Init Parameters, and then convert to template. If you don't know how to do that, click on the VM you want to convert, then click "more" in the upper right hand corner of the GUI:
 
 If you want to expand your hard drive you can on this base image before creating a template or after you clone a new machine. This is entirely up to you, and I'd recommend setting the template to be the minimum default spec you can see yourself utilizing. Clones can always be upgraded when you create them.
-
-## Create Clones!
-
-Now that you've created your template, you can start making clones! Hopefully you found this guide useful, and it saves you time in the future!
-
 
 ## Troubleshooting
 
