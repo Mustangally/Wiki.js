@@ -2,7 +2,7 @@
 title: Proxmox & Cloud Images
 description: 
 published: true
-date: 2022-03-21T17:32:22.589Z
+date: 2022-03-21T17:32:34.380Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T17:29:54.120Z
@@ -50,7 +50,7 @@ We'll want to make the cloud-init drive bootable and restrict BIOS to boot from 
 
 And lastly we're going to add a serial console:
 
-`qm set 8000 --serial0 socket --vga serial0`
+`qm set 200 --serial0 socket --vga serial0`
 
 **DO NOT start your VM yet. Doing so will generate unique identifiers for the machine which can cause network identification conflicts down the line with clones.**
 
