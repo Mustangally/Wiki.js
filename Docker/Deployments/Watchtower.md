@@ -2,13 +2,12 @@
 title: Watchtower Deployment
 description: 
 published: true
-date: 2022-03-23T19:12:45.070Z
+date: 2022-03-23T19:13:12.792Z
 tags: docker
 editor: markdown
 dateCreated: 2022-03-23T19:12:45.070Z
 ---
 
-<p id="bkmrk-a-question-that-has-">A question that has always bothered me was how I should deal with security updates on applications that are running in docker containers. Security updates are often done automatically in Linux distros and that for a good reason. This is easily done via the package managers and there are many services and apps to automate package updates for you. But as docker containers are isolated from the core system and they are based on images, you need to come up with a better solution for these. With Watchtower, you can schedule container updates and minimize the downtime during the update.</p>
 <h2 id="bkmrk-update-docker-contai">Update docker container automatically with Watchtower</h2>
 <p id="bkmrk-watchtower-is-an-app">Watchtower is an application that will monitor all running docker containers. Once it discovers a change in the image it will pull down the new version automatically and restart the container with the new image. It is an open-source project you can find on GitHub and I’m using this in some installations. It offers you some configuration to schedule the update sequence and includes or excludes specific containers on the server. You can also add a notification that will be able to send you an email. Watchtower itself is also running in a docker container and configured by changing environment variables or command arguments.</p>
 <h2 id="bkmrk-deploy-watchtower-vi">Deploy Watchtower via Docker-Compose</h2>
