@@ -2,16 +2,16 @@
 title: Docker Deployments
 description: 
 published: true
-date: 2022-03-23T19:14:39.545Z
+date: 2022-03-23T19:15:58.673Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-23T19:14:39.545Z
 ---
 
-# CKA Exam Notes
-The CKA exam, or Certified Kubernetes Admin exam, provides a great foundation for learning to build and deploy kubernetes clusters in production.
+# Docker Deployments
+Docker is a containerization tool designed to allow the isolated deployment of different apps on the same system.
 
-This section will contain the bulk of my notes while studying for the CKA exam.
+This Section will detail out the deployments that I have done, and the process & files used to do so.
 
 # Pages:
 
