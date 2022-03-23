@@ -2,7 +2,7 @@
 title: Proxmox Troubleshooting
 description: 
 published: true
-date: 2022-03-23T19:27:17.102Z
+date: 2022-03-23T19:27:32.074Z
 tags: proxmox
 editor: markdown
 dateCreated: 2022-03-23T19:27:17.102Z
@@ -16,4 +16,4 @@ This Section will detail out the troubleshooting for Proxmox that I have done, a
 
  <font size="5"> 
  
- - [Console-Access](/Proxmox/Troubleshooting/Console-Access)
+ - [Console-Access Through A Reverse Proxy](/Proxmox/Troubleshooting/Console-Access)
