@@ -2,7 +2,7 @@
 title: Proxmox & Cloud Images
 description: 
 published: true
-date: 2022-03-21T21:41:26.312Z
+date: 2022-03-25T15:46:41.409Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T17:29:54.120Z
@@ -35,6 +35,10 @@ Ok so first things first, open a terminal session to your Proxmox host either vi
 `qm create 200 --memory 2048 --core 2 --name ubuntu-cloud --net0 virtio,bridge=vmbr0`
 
 This is creating a VM named "ubuntu-cloud" with an ID tag of 200, 2GB of RAM, 2 CPU Cores, and a network interface attached to the host bridge network "vmbr0"
+
+Import the downloaded Ubuntu disk to storage
+
+`qm importdisk 200 focal-server-cloudimg-amd64.img SSD`
 
 Next, we'll attach our Cloud Image to the VM on the 'scsi0' interface:
 
