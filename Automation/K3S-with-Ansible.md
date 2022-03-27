@@ -2,7 +2,7 @@
 title: Building an HA K3S Cluster with Ansible
 description: 
 published: true
-date: 2022-03-27T21:24:27.563Z
+date: 2022-03-27T21:26:05.846Z
 tags: kubernetes, k3s, ansible, automation
 editor: markdown
 dateCreated: 2022-03-27T21:14:47.378Z
@@ -21,7 +21,8 @@ cp -R inventory/sample inventory/my-cluster
 
 ### Edit the Hosts File
 Next, edit the `inventory/my-cluster/hosts.ini` to match your systems. DNS works here too.
-```[master]
+```
+[master]
 10.0.0.110
 10.0.0.111
 10.0.0.112
