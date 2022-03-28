@@ -2,7 +2,7 @@
 title: Building an HA K3S Cluster with Ansible
 description: 
 published: true
-date: 2022-03-27T21:26:05.846Z
+date: 2022-03-28T23:58:42.941Z
 tags: kubernetes, k3s, ansible, automation
 editor: markdown
 dateCreated: 2022-03-27T21:14:47.378Z
@@ -12,6 +12,8 @@ dateCreated: 2022-03-27T21:14:47.378Z
 First, you’ll need Ansible installed. See my page on installing [Ansible](/Automation/Ansible-Basics) if needed.
 
 Next, you’ll want to clone [this repo](https://github.com/Mustangally/k3s-ansible) to your machine so that you can make changes to fit your environment.
+
+Should you wish to read a more in-depth explanation of what is going on, please see my [blog post](https://www.kkovach.com/building-a-k3s-cluster-with-ansible/).
 
 # Installing k3s
 Next, you’ll want to copy the `sample` directory within the `inventory` directory.
