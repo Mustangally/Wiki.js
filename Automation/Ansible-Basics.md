@@ -2,7 +2,7 @@
 title: Learning the Basics of Ansible
 description: 
 published: true
-date: 2022-04-13T00:23:47.001Z
+date: 2022-04-13T00:24:10.232Z
 tags: linux, ansible, automation
 editor: markdown
 dateCreated: 2022-03-23T23:58:27.650Z
@@ -119,7 +119,7 @@ You'll notice that Ansible confirms that it can connect to the hosts, then it ru
 
 # Other Considerations
 
-### Host Key Checking
+## Host Key Checking
 Ansible has host key checking enabled by default.
 
 If a host is reinstalled and has a different key in `known_hosts`, this will result in an error message until corrected. If a host is not initially in `known_hosts` this will result in prompting for confirmation of the key, which results in an interactive experience if using Ansible, from say, cron. You might not want this.
