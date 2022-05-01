@@ -2,7 +2,7 @@
 title: PfSense in Proxmox
 description: PfSense Configuration to hide VMs behind a double NAT
 published: true
-date: 2022-05-01T07:33:50.109Z
+date: 2022-05-01T07:36:41.953Z
 tags: proxmox, networking
 editor: markdown
 dateCreated: 2022-05-01T07:33:50.109Z
@@ -38,3 +38,4 @@ This part is fairly staightforward. First we'll login with the credentials `admi
 
 Once we're in, we'll be brought to a setup checklist. Click through here and make sure nothing stands out. The big thing will be setting up your "LAN" IP address. This is the IP your VM's will be looking for as their gateway.
 
+I'll be using `10.0.100.100/24` for this project. I typically make my gateways either `x.x.x.1` or `x.x.x.100`, as it's easy for me to remember.
