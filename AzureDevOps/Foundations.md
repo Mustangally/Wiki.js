@@ -2,7 +2,7 @@
 title: DevOps Foundations
 description: 
 published: true
-date: 2022-05-09T23:04:22.284Z
+date: 2022-05-09T23:05:11.869Z
 tags: devops
 editor: markdown
 dateCreated: 2022-05-09T23:04:22.284Z
@@ -28,10 +28,10 @@ From a high level perspective, the DevOps philosophy seeks to solve this fundame
 
 Of course achieving this goal is not simple and it has a new set of skills and tools. If you're going to have a middleman between Ops and Dev, you're going to need people who can "speak both languages". You're also going to need to adopt of develop new processes that address the agility and stability concerns with product updates.
 
-You may have heard of the "Agile" development life cycle or process. Essentially this is an outline of the intended process in DevOps. It lays out a plan for how new releases are supposed to go, and the steps needed to do this properly.
+You may have heard of the "Agile" development life cycle or process. Essentially this is an outline of the intended process in DevOps. It lays out a plan for how new releases are supposed to go, and the steps needed to do this properly. In DevOps we use the term Continuous Improvement/Continuous Delivery, or CI/CD. This is the fundamental philosophy that addresses the need for common and responsive updates and deliveries to the end user.
+
 ![agile_image.png](/agile_image.png)
 
-In DevOps we use the term Continuous Improvement/Continuous Delivery, or CI/CD. This is the fundamental philosophy that addresses the need for common and responsive updates and deliveries to the end user.
 
 ## Architecture Change
 
