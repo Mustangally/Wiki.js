@@ -269,7 +269,7 @@ Example Deployment Definition File:
 
 ```yaml
 apiVersion: apps/v1
-kind: Deployments
+kind: Deployment
 metadata:
   name: myapp-deployment
   labels:
