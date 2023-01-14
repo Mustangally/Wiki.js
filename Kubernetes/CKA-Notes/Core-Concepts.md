@@ -228,9 +228,9 @@ spec:
           containers:
             - name: example-container
               image: example
-    replicas: 3
-    selector:
-      matchLabels:
+  replicas: 3
+  selector:
+    matchLabels:
       type: front-end
 ```
 
